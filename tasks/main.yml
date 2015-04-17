@@ -4,4 +4,4 @@
     state: latest
     pkg: "{{ item }}"
   with_items:
-    - openjdk-7-jre-headless
+    - openjdk-8-jdk
