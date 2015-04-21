@@ -1,5 +1,15 @@
 ---
 dependencies:
-  - role: telusdigital.apt-repository
+  - role: colstrom.apt-repository
     repository_key: '0xeb9b1d8886f44e2a'
     repository_url: 'deb http://ppa.launchpad.net/openjdk-r/ppa/ubuntu trusty main'
+galaxy_info:
+  author: Chris Olstrom
+  description: Java - Java 8 on Ubuntu
+  license: MIT
+  platforms:
+    - name: Ubuntu
+      versions:
+      - trusty
+  categories:
+    - language
