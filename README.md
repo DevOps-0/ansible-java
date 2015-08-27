@@ -1,6 +1,6 @@
 # ansible-java
 
-Ansible Role for Java 8.
+Ansible Role for Java.
 
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 

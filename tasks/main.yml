@@ -1,5 +1,5 @@
 ---
 - name: Install Packages | apt
   apt:
-    pkg: openjdk-8-jdk
+    pkg: "openjdk-{{ java_version }}-jdk"
     state: latest
