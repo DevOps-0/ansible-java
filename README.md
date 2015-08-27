@@ -6,7 +6,7 @@ Ansible Role for Java.
 
 Tunables
 ========
-* None
+* `java_version` (string) The version of java to install
 
 Dependencies
 ------------
@@ -17,6 +17,7 @@ Example Playbook
     - hosts: servers
       roles:
          - role: telusdigital.java
+           java_version: 7
 
 License
 -------
