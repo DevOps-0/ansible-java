@@ -1,12 +1,12 @@
 # ansible-java
 
-Ansible Role for Java 8.
+Ansible Role for Java.
 
 [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
 Tunables
 ========
-* None
+* `java_version` (string) The version of java to install
 
 Dependencies
 ------------
@@ -17,6 +17,7 @@ Example Playbook
     - hosts: servers
       roles:
          - role: telusdigital.java
+           java_version: 7
 
 License
 -------
